@@ -6,6 +6,7 @@ services:
     ports:
       - "8501:8501"
     volumes:
+      - ./config/gh:/root/.config/gh
       - .:/app
     env_file:
       - osing.env
