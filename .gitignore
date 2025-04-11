@@ -1,0 +1,6 @@
+# OSINT Toolkit .gitignore
+osing.env
+.env
+__pycache__/
+*.zip
+*.rtf
